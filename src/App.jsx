@@ -1,11 +1,16 @@
+import Header from "./layouts/Header"
+import HEADER_DATA from "./Data/Header_data.json"
+import Footer from "./layouts/Footer"
+
+
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        My Headline
-      </h1>
-    </>
-  )
+      return (
+            <>
+                  <Header itemsData={HEADER_DATA} />
+                  <div className=" h-96"></div>
+                  <Footer />
+            </>
+      )
 }
 
 export default App

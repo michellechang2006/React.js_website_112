@@ -1,0 +1,22 @@
+ .menu-item-md {
+    @apply flex flex-col items-center justify-center 
+    /* RWD */
+    2xl:hidden xl:hidden lg:hidden    
+  
+}
+
+ .menu-item-md>.item {
+    @apply py-2 px-4 rounded-md
+}
+
+ .menu-item-md .item>a {
+    @apply flex justify-center items-center
+}
+
+ .menu-item-md .dropdown {
+    @apply flex-col origin-top duration-200
+}
+
+ .menu-item-md .dropdown>a {
+    @apply flex justify-center items-center py-2 px-4
+}

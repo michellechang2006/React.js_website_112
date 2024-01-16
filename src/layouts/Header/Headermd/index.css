@@ -1,0 +1,30 @@
+.header-md header {
+    @apply w-screen fixed flex justify-between items-center flex-row p-4 bg-primary-container
+    /* RWD */
+    2xl:hidden xl:hidden lg:hidden
+}
+
+.header-md .side-menu {
+    @apply z-20 2xl:hidden xl:hidden lg:hidden w-2/3 h-screen 
+    absolute py-6 px-4  top-0 bg-primary-container
+    transition-all duration-300 origin-left gap-4
+}
+
+.header-md .side-menu .top-section {
+    @apply flex flex-row justify-between mx-4
+}
+
+.header-md .side-menu .items {
+    @apply flex flex-col items-start 
+}
+
+.header-md .side-menu .top-section .close-icon {
+    @apply absolute right-4 top-4
+}
+
+.header-md .overlay{
+    @apply  absolute w-screen h-screen bg-overlay 
+    /* RWD */
+    2xl:hidden xl:hidden lg:hidden
+    transition-all duration-100
+}

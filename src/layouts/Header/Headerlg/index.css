@@ -1,0 +1,12 @@
+.header-lg {
+    @apply w-screen fixed justify-between items-center bg-primary-container px-20 py-4
+    hidden 2xl:flex xl:flex lg:flex
+}
+
+.header-lg .logo {
+    @apply w-40
+}
+
+.header-lg .items {
+    @apply flex flex-row
+}

@@ -1,0 +1,21 @@
+.menu-item-lg {
+     @apply  hidden items-center justify-center
+    2xl:flex xl:flex lg:flex 
+}
+
+
+.menu-item-lg>.item  {
+    @apply py-2 px-4 rounded-lg
+}
+
+.menu-item-lg .item >a {
+    @apply flex justify-center items-center flex-row
+}
+
+.menu-item-lg .dropdown {
+    @apply flex flex-col py-2 px-4 rounded-lg absolute transition-all duration-200 origin-top drop-shadow-md z-10 top-16 bg-primary-container
+}
+
+.menu-item-lg .dropdown a {
+    @apply mx-4 my-3
+}

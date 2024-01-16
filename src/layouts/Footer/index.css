@@ -1,0 +1,15 @@
+footer{
+    @apply w-screen text-center bg-primary-container flex flex-col justify-center items-center px-20 py-12 gap-12
+}
+
+footer .items {
+    @apply flex flex-row gap-4
+}
+
+footer .icons {
+    @apply flex flex-row justify-center items-center gap-4 
+} 
+
+footer .bottom-section{
+    @apply flex flex-col gap-2
+}
