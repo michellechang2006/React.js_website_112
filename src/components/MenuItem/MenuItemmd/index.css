@@ -9,7 +9,7 @@
     @apply py-2 px-4 rounded-md
 }
 
- .menu-item-md .item>a {
+ .menu-item-md .item> a {
     @apply flex justify-center items-center
 }
 
@@ -17,6 +17,6 @@
     @apply flex-col origin-top duration-200
 }
 
- .menu-item-md .dropdown>a {
+ .menu-item-md .dropdown> a {
     @apply flex justify-center items-center py-2 px-4
 }

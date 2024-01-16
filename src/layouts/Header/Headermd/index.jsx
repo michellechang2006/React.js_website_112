@@ -1,5 +1,5 @@
 
-import { CloseIcon, LogoGithub, MenuIcon } from "./icons";
+import { CloseIcon, LogoGithub, MenuIcon } from "../../../assets/icons";
 import "./index.css"
 import { useState } from "react";
 import Logo from "../../../components/Logo";
@@ -24,7 +24,7 @@ export default function Headermd({logoSrc,items}) {
                     <button onClick={sideMenuEvent}><CloseIcon /></button>
                 </div>
                 <div className="items">
-                {items.map((item) => <MenuItem dropdownItems={item.dropdownItems} hypelink={item.hypelink} drop dropdownMenu={item.dropdownMenu} key={item.title}>{item.title}</MenuItem>)}
+                {items.map((item) => <MenuItem path={item.path} dropdownItems={item.dropdownItems} hypelink={item.hypelink} drop dropdownMenu={item.dropdownMenu} key={item.title}>{item.title}</MenuItem>)}
                 </div>
             </div>
         </div>

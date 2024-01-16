@@ -1,30 +1,21 @@
 import MenuItem from "../../components/MenuItem"
 import "./index.css"
-import { IoLogoGithub, IoLogoYoutube, IoLogoFacebook } from "react-icons/io5";
-import { IconContext } from "react-icons";
+import { LogoFacebook, LogoGithub, LogoYoutube } from "../../assets/icons";
 
-export default function Footer() {
+
+export default function Footer({ itemsData={} }) {
     return (
         <footer>
-            <div className="items">
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
-                <MenuItem>item</MenuItem>
+            <div className="items-lg">
+                {itemsData.destop.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
+            </div>
+            <div className="items-md">
+            {itemsData.mobile.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
             </div>
             <div className="icons">
-                <IconContext.Provider value={{ size: "1.8rem", color: "#121619" }}>
-                    <IoLogoGithub />
-                </IconContext.Provider>
-                <IconContext.Provider value={{ size: "1.8rem", color: "#121619" }}>
-                    <IoLogoFacebook />
-                </IconContext.Provider>
-                <IconContext.Provider value={{ size: "1.8rem", color: "#121619" }}>
-                    <IoLogoYoutube />
-                </IconContext.Provider>
+                <a href="#"><LogoGithub /></a>
+                <a href="#"><LogoFacebook /></a>
+                <a href="#"><LogoYoutube /></a>
             </div>
             <div className="bottom-section">
                 <p className="body-s">Copyright © 2024 Michelle Chang. All rights reserved.</p>

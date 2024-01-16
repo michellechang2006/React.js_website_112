@@ -1,15 +1,13 @@
 body{
-    @apply text-tertiary
-}
-.menu_en{
-    @apply text-base font-medium font-Roboto flex flex-row gap-2
+    @apply text-tertiary  font-Noto-Sans-TC 
 }
 
-.body-s_en{
-    @apply text-sm font-Roboto 
+.menu_tabs{
+    @apply text-base font-bold flex flex-row gap-2 
 }
+
 .body-s{
-    @apply text-sm font-Noto-Sans-TC
+    @apply text-sm
 }
 
 

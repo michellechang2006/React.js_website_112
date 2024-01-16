@@ -18,9 +18,7 @@ export default {
         "overlay": "#121619"
       },
       fontFamily: {
-        "Roboto": ['Roboto', "sans-serif"],
-        "Instrument": ['Instrument Serif', "serif"],
-        "Noto-Sans-TC": ['Noto Sans TC', "sans-serif"]
+        "Noto-Sans-TC": ['Noto Sans TC', "sans-serif"],
       }
     },
   },
