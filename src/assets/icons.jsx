@@ -1,11 +1,11 @@
 import { IoGlobeOutline, IoEllipse, IoChevronForward, IoClose, IoLogoGithub, IoMenu, IoLogoYoutube, IoChevronDown, IoOpenOutline, IoLogoFacebook } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
+
 const GlobeOutline = () =>
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-3xl text-primary"}}>
+    <IconContext.Provider value={{ className: "lg:text-4xl sm:text-7xl text-primary" }}>
         <IoGlobeOutline />
     </IconContext.Provider>
-
 
 const ChevronDown = () =>
     <IconContext.Provider value={{ className: "lg:text-xl sm:text-3xl", color: "#121619", }}>
@@ -49,5 +49,9 @@ const ChevronForward = ({ color = "#121619" }) =>
     <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl", color: { color } }}>
         <IoChevronForward />
     </IconContext.Provider>
+
+
+
+
 
 export { GlobeOutline, ChevronForward, MenuIcon, LogoGithub, CloseIcon, LogoFacebook, LogoYoutube, ChevronDown, OpenOutline, CircleIcon } 
