@@ -1,6 +1,6 @@
 .menu-item-lg {
      @apply  hidden items-center justify-center
-   lg:flex 
+   lg:flex cursor-pointer
 }
 
 

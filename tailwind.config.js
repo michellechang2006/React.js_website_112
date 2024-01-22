@@ -26,6 +26,7 @@ export default {
         'banner-md': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)),url('web_cover_bg_mobile.webp')",
       },
       fontSize:{
+        "heading2":["2.625rem","110%"],
         "bodyL":["1.875rem","150%"]
       }
     },

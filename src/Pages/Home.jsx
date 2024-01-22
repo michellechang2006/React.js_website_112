@@ -3,6 +3,8 @@ import FOOTER_DATA from "../Data/Footer_data.json"
 import Header from "../layouts/Header"
 import Footer from "../layouts/Footer"
 import Banner from "../layouts/Banner"
+import IconsOnly from "../layouts/IconsOnly"
+
 
 function App() {
       return (
@@ -14,6 +16,7 @@ function App() {
                   >
                         Welcome to <i>Mlearning</i>
                   </Banner>
+                  <IconsOnly/>
                   <Footer itemsData={FOOTER_DATA} />
             </>
       )
