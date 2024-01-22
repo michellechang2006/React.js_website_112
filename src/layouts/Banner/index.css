@@ -1,20 +1,19 @@
-.banner{
-    background:linear-gradient(rgba(18, 22, 25, .3),rgba(18, 22, 25, .3)),url(web_cover_bg.webp);
-    @apply  bg-cover w-screen lg:h-screen flex flex-col justify-center items-center text-center  gap-28
+.banner {
+    @apply lg:bg-banner-lg md:bg-banner-md bg-cover bg-center w-screen h-screen flex flex-col justify-center items-center text-center gap-28
 }
 
-.banner div{
-    @apply text-white mt-24 flex flex-col gap-12 xl:mx-96 sm:mx-4
+.banner div {
+    @apply text-white mt-24 flex flex-col gap-12 xl:mx-96 sm:mx-4 
 }
 
-.banner div h1{
-    @apply text-5xl font-bold
+.banner div h1 {
+    @apply lg:text-5xl md:text-7xl font-bold 
 }
 
-.banner div p{
-    @apply text-lg
+.banner div p {
+    @apply lg:text-lg md:text-bodyL
 }
 
-.banner i{
+.banner i {
     @apply not-italic font-bold font-Kalam text-primary-container
 }

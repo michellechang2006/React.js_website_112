@@ -15,11 +15,18 @@ export default {
         "error": "#EE3B2B",
         "warning": "#F7C655",
         "success": "#52E052",
-        "overlay": "rgba(18, 22, 25, .7)"
+        "overlay": "rgba(18, 22, 25, .3)"
       },
       fontFamily: {
         'Kalam': ['Kalam', "cursive"],
         "Noto-Sans-TC": ['Noto Sans TC', "sans-serif"],
+      },
+      backgroundImage: {
+        'banner-lg': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)), url(web_cover_bg.webp);",
+        'banner-md': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)),url('web_cover_bg_mobile.webp')",
+      },
+      fontSize:{
+        "bodyL":["1.875rem","150%"]
       }
     },
   },

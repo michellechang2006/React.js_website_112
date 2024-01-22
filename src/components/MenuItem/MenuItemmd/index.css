@@ -5,7 +5,7 @@
   
 }
 
- .menu-item-md>.item {
+ .menu-item-md >.item {
     @apply py-2 px-4 rounded-md
 }
 
@@ -18,5 +18,5 @@
 }
 
  .menu-item-md .dropdown> a {
-    @apply flex justify-center items-center py-2 px-4
+    @apply flex mt-8 justify-center items-center py-2 px-4
 }

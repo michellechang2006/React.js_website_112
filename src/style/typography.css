@@ -5,8 +5,7 @@ body{
 .menu_tabs{
     @apply font-bold flex flex-row gap-2 
     /* RWD */
-   lg:text-base md:text-lg sm:text-lg
+   lg:text-base sm:text-2xl
 }
-
 
 
