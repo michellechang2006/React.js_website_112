@@ -1,6 +1,6 @@
 .menu-item-lg {
      @apply  hidden items-center justify-center
-    2xl:flex xl:flex lg:flex 
+   lg:flex 
 }
 
 

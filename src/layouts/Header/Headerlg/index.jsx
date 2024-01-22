@@ -11,6 +11,12 @@ export default function Headerlg({ logoSrc, items }) {
                     {items.map((item) => <MenuItem path={item.path} dropdownItems={item.dropdownItems} hypelink={item.hypelink} dropdownMenu={item.dropdownMenu}  key={item.title}>{item.title}</MenuItem>)}
                 </div>
             </header>
+            <header className="header-lg">
+                <Logo src={logoSrc} />
+                <div className="items">
+                    {items.map((item) => <MenuItem path={item.path} dropdownItems={item.dropdownItems} hypelink={item.hypelink} dropdownMenu={item.dropdownMenu}  key={item.title}>{item.title}</MenuItem>)}
+                </div>
+            </header>
         </>
     )
 }

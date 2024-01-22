@@ -18,8 +18,8 @@ export default function Footer({ itemsData={} }) {
                 <a href="#"><LogoYoutube /></a>
             </div>
             <div className="bottom-section">
-                <p className="body-s">Copyright © 2024 Michelle Chang. All rights reserved.</p>
-                <p className="body-s">本網站插圖素材來源：www.storyset.com</p>
+                <p>Copyright © 2024 Michelle Chang. All rights reserved.</p>
+                <p>本網站插圖素材來源：www.storyset.com</p>
             </div>
         </footer>
     )

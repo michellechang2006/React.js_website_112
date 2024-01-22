@@ -1,14 +1,14 @@
-import { IoClose, IoLogoGithub, IoMenu, IoLogoYoutube,IoChevronDown,IoOpenOutline, IoLogoFacebook  } from "react-icons/io5";
+import { IoEllipse, IoChevronForward, IoClose, IoLogoGithub, IoMenu, IoLogoYoutube, IoChevronDown, IoOpenOutline, IoLogoFacebook } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
 
 const ChevronDown = () =>
-    <IconContext.Provider value={{ size: "1.5rem",  color: "#121619" }}>
+    <IconContext.Provider value={{ size: "1.5rem", color: "#121619" }}>
         <IoChevronDown />
     </IconContext.Provider>
 
 const OpenOutline = () =>
-    <IconContext.Provider value={{ size: "1.5rem",  color: "#121619" }}>
+    <IconContext.Provider value={{ size: "1.5rem", color: "#121619" }}>
         <IoOpenOutline />
     </IconContext.Provider>
 
@@ -36,5 +36,13 @@ const LogoYoutube = () =>
     <IconContext.Provider value={{ size: "1.8rem", color: "#121619" }}>
         <IoLogoYoutube />
     </IconContext.Provider>
+const CircleIcon = ({ color = "#121619" }) =>
+    <IconContext.Provider value={{ size: "1.5rem", color: { color } }}>
+        <IoEllipse />
+    </IconContext.Provider>
+const ChevronForward = ({ color = "#121619" }) =>
+    <IconContext.Provider value={{ size: "1.5rem", color: { color } }}>
+        <IoChevronForward />
+    </IconContext.Provider>
 
-export { MenuIcon, LogoGithub, CloseIcon,LogoFacebook,LogoYoutube, ChevronDown, OpenOutline } 
+export { ChevronForward, MenuIcon, LogoGithub, CloseIcon, LogoFacebook, LogoYoutube, ChevronDown, OpenOutline, CircleIcon  } 

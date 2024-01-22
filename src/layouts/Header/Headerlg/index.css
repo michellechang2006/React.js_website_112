@@ -1,6 +1,6 @@
 .header-lg {
     @apply w-screen fixed justify-between items-center bg-primary-container px-20 py-4
-    hidden 2xl:flex xl:flex lg:flex
+    hidden lg:flex
 }
 
 .header-lg .logo {

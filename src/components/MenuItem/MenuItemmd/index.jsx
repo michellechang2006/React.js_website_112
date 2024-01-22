@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { ChevronDown, OpenOutline } from "../../../assets/icons"
 import "./index.css"
-
+import {v4 as uuidv4} from 'uuid';
 
 export default function MenuItemmd({ path="#" ,dropdownItems, hypelink = false, dropdownMenu = false, title}) {
     const [dropdown, setDropdown] = useState(false)
@@ -18,7 +18,7 @@ export default function MenuItemmd({ path="#" ,dropdownItems, hypelink = false, 
                 </a>
             </div>
             {dropdownItems  && <div tabIndex="0" className={`dropdown ${dropdown & dropdownMenu ? "flex" : "hidden"}`}>
-                {dropdownItems.map((item) => <a key={item.title} href={item.path} className="menu_tabs text-error">{item.title}</a>)}
+                {dropdownItems.map((item) => <a key={uuidv4()} href={item.path} className="menu_tabs">{item.title}</a>)}
             </div>}
         </div>
     )

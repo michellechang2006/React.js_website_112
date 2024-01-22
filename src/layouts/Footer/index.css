@@ -3,11 +3,11 @@ footer{
 }
 
 footer .items-lg {
-    @apply md:hidden sm:hidden  flex flex-row gap-4
+    @apply md:hidden   flex flex-row gap-4
 }
 
 footer .items-md {
-    @apply  hidden md:flex sm:flex flex-row gap-4
+    @apply  hidden md:flex flex-row gap-4
 }
 
 footer .icons {
@@ -15,5 +15,5 @@ footer .icons {
 } 
 
 footer .bottom-section{
-    @apply flex flex-col gap-2
+    @apply flex flex-col gap-2 text-sm
 }
