@@ -39,5 +39,5 @@ button {
     /* lg */
     lg:text-base lg:py-3 lg:px-7
     /* sm */
-    sm:text-4xl sm:py-8 sm:px-16
+    sm:text-lg sm:py-3 sm:px-8
 }

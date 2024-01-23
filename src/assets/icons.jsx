@@ -46,7 +46,7 @@ const CircleIcon = ({ color = "#121619" }) =>
         <IoEllipse />
     </IconContext.Provider>
 const ChevronForward = ({ color = "#121619" }) =>
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl", color: { color } }}>
+    <IconContext.Provider value={{ className: "lg:text-xl sm:text-2xl", color: { color } }}>
         <IoChevronForward />
     </IconContext.Provider>
 

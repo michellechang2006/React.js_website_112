@@ -1,0 +1,26 @@
+.card {
+    @apply lg:gap-0 md:gap-4 lg:w-56 text-left flex flex-col border rounded-xl border-neutral-300 overflow-hidden
+}
+
+.card img {
+    @apply md:w-96
+}
+
+.card section {
+    @apply flex flex-col px-4 pb-4 pt-6
+}
+
+.card section h5 {
+    @apply lg:text-xl md:text-3xl font-bold lg:mb-0 md:mb-6
+}
+
+.card section p {
+    @apply lg:text-base md:text-2xl
+}
+
+
+.card a {
+    @apply pt-3 hover:underline transition-all text-primary
+    /* RWD */
+    lg:px-4 lg:pb-4 md:px-5 md:pb-6 lg:text-base md:text-2xl 
+}

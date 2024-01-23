@@ -1,0 +1,25 @@
+.cards-section {
+    @apply flex flex-col gap-12 items-center justify-center text-center
+    /* RWD */
+    lg:p-0 md:px-4 md:py-12
+}
+
+.cards-section .cards {
+    @apply grid
+    /* RWD */
+    lg:grid-cols-4 lg:gap-4 md:grid-cols-2 md:gap-8
+}
+
+.cards-section section {
+    @apply flex flex-col gap-1
+}
+
+.cards-section section h2 {
+    @apply text-4xl font-bold
+}
+
+.cards-section section h4 {
+    @apply lg:text-base text-secondary font-bold
+    /* Tablet/Mobile */
+    md:text-3xl
+}

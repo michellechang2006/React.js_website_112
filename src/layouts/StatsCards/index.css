@@ -7,7 +7,7 @@
 }
 
 .stats-cards section {
-    @apply flex flex-col items-center
+    @apply flex flex-col items-center lg:gap-1
     /* Tablet/Mobile */
     md:gap-4
 }
