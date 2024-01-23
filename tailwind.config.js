@@ -28,7 +28,7 @@ export default {
       fontSize:{
         "heading2":["2.625rem","110%"],
         "bodyL":["1.875rem","150%"]
-      }
+      },
     },
   },
   plugins: [],

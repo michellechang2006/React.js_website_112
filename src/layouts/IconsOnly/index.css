@@ -1,4 +1,4 @@
-.stats-cards {
+.icons-only {
     @apply flex items-center justify-center flex-col text-center
     /* RWD */
     lg:h-screen lg:p-20 lg:gap-12
@@ -6,67 +6,67 @@
     px-10 py-20 gap-16
 }
 
-.stats-cards section {
+.icons-only section {
     @apply flex flex-col items-center
     /* Tablet/Mobile */
     md:gap-4
 }
 
-.stats-cards section h4 {
+.icons-only section h4 {
     @apply lg:text-xl
     /* Tablet/Mobile */
     md:text-3xl
 }
 
-.stats-cards section h2 {
+.icons-only section h2 {
     @apply lg:text-4xl
     /* Tablet/Mobile */
     md:text-6xl
 }
 
-.stats-cards .icon-card {
+.icons-only .icon-card {
     @apply flex items-center justify-center flex-col
 }
 
-.stats-cards > p {
+.icons-only>p {
     /* RWD */
     @apply lg:text-base md:text-bodyL
 }
 
-.stats-cards > div {
+.icons-only>div {
     @apply
     /* lg */
     lg:flex lg:flex-row
     /* md */
-    md:gap-4 md:grid md:grid-cols-2
+    md:flex-col
 }
 
-.stats-cards .icon-card {
-    @apply flex-col rounded-xl border border-neutral-300
+.icons-only .icon-card {
+    @apply flex-col rounded-xl
     /* lg */
     lg:gap-4 lg:py-4 lg:px-8
     /* md */
     md:gap-4 md:py-20 md:px-16
 }
 
-.stats-cards h2 {
+.icons-only h2 {
     @apply text-heading2 font-bold
 }
 
-.stats-cards h4 {
+.icons-only h4 {
     @apply text-xl font-bold text-secondary
 }
 
-.stats-cards .icon-card div {
+.icons-only .icon-card div {
     @apply flex flex-col gap-4
 }
 
-.stats-cards .icon-card h5 {
+.icons-only .icon-card h5 {
     /* RWD */
     @apply lg:text-lg md:text-4xl
 }
 
-.stats-cards .icon-card p {
+.icons-only .icon-card p {
     @apply text-primary
     /* RWD */
     lg:text-base md:text-3xl
