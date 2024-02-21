@@ -22,8 +22,8 @@ export default {
         "Noto-Sans-TC": ['Noto Sans TC', "sans-serif"],
       },
       backgroundImage: {
-        'banner-lg': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)), url('pics/web_cover_bg.webp');",
-        'banner-md': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)),url('pics/web_cover_bg_mobile.webp')",
+        'banner-lg': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)), url('/public/pics/web_cover_bg.webp');",
+        'banner-md': "linear-gradient(rgba(18, 22, 25, .3), rgba(18, 22, 25, .3)),url('/public/pics/web_cover_bg_mobile.webp')",
       },
       fontSize:{
         "heading2":["2.625rem","110%"],
