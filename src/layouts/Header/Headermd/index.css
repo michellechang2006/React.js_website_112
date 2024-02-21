@@ -5,7 +5,7 @@
 }
 
 .header-md .side-menu {
-    @apply fixed z-20 w-2/3 h-screen py-6 px-4 top-0 bg-primary-container transition-all duration-300 origin-left
+    @apply fixed z-20 w-2/3 h-screen py-6 px-4 top-0 bg-primary-container transition-all duration-300 origin-left shadow-lg
     /* RWD */
     lg:hidden
 }
