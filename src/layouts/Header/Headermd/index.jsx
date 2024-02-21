@@ -28,12 +28,12 @@ export default function Headermd({ logoSrc, items, scrollEvent = true }) {
     }
     return (
         <div className={`header-md ${windowScroll & scrollEvent ? "disabled" : null}`}>
-            <header>
+            <header className="z-20">
                 <button onClick={sideMenuEvent}><MenuIcon /></button>
                 <Logo src={logoSrc} />
                 <LogoGithub />
             </header>
-            <div onClick={sideMenuEvent} className={`overlay  ${sideMenu ? "opacity-100 z-10" : "opacity-0 -z-10"}`}></div>
+            <div onClick={sideMenuEvent} className={`bg-overlay h-screen w-screen fixed  ${sideMenu ? "opacity-100 z-10" : "opacity-0 -z-10"}`}></div>
             <div className={`side-menu ${sideMenu ? "translate-x-0" : "-translate-x-full"}`}>
                 <div className="top-section">
                     <Logo src={logoSrc} />
