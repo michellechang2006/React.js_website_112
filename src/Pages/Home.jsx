@@ -22,9 +22,7 @@ function App() {
                   </Banner>
                   <IconsOnly
                         title={"關於我"} subtitle={"ABOUT ME"} itemsData={ABOUTME_DATA} btn={"我的學習筆記"} />
-                  <div className="flex justify-center p-20">
                         <Cards cardsData={PROJECTS_DATA} btn={"所有作品"} subtitle={"PROJECTS"}>精選 作品</Cards>
-                  </div>
                   <Footer itemsData={FOOTER_DATA} />
             </>
       )

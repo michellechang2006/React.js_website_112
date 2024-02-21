@@ -7,23 +7,18 @@ const GlobeOutline = () =>
         <IoGlobeOutline />
     </IconContext.Provider>
 
-const ChevronDown = () =>
-    <IconContext.Provider value={{ className: "lg:text-xl sm:text-3xl", color: "#121619", }}>
-        <IoChevronDown />
-    </IconContext.Provider>
-
 const OpenOutline = () =>
-    <IconContext.Provider value={{ className: "lg:text-xl sm:text-3xl", color: "#121619" }}>
+    <IconContext.Provider value={{ className: "lg:text-xl sm:text-5xl", color: "#121619" }}>
         <IoOpenOutline />
     </IconContext.Provider>
 
 const MenuIcon = () =>
-    <IconContext.Provider value={{ size: "3rem", color: "#121619" }}>
+    <IconContext.Provider value={{ className:"sm:text-6xl", color: "#121619" }}>
         <IoMenu />
     </IconContext.Provider>
 
 const LogoGithub = () =>
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl text-tertiary hover:text-secondary transition-colors" }}>
+    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-6xl text-tertiary hover:text-secondary transition-colors" }}>
         <IoLogoGithub />
     </IconContext.Provider>
 const CloseIcon = () =>
@@ -33,20 +28,26 @@ const CloseIcon = () =>
 
 const LogoFacebook = () =>
 
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl text-tertiary hover:text-secondary transition-colors" }}>
+    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-6xl text-tertiary hover:text-secondary transition-colors" }}>
         <IoLogoFacebook />
     </IconContext.Provider>
 
 const LogoYoutube = () =>
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl text-tertiary hover:text-secondary transition-colors" }}>
+    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-6xl text-tertiary hover:text-secondary transition-colors" }}>
         <IoLogoYoutube />
     </IconContext.Provider>
 const CircleIcon = ({ color = "#121619" }) =>
-    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-5xl", color: { color } }}>
+    <IconContext.Provider value={{ className: "lg:text-3xl sm:text-6xl", color: { color } }}>
         <IoEllipse />
     </IconContext.Provider>
+
+const ChevronDown = () =>
+<IconContext.Provider value={{ className: "lg:text-xl sm:text-5xl", color: "#121619", }}>
+    <IoChevronDown />
+</IconContext.Provider>
+
 const ChevronForward = ({ color = "#121619" }) =>
-    <IconContext.Provider value={{ className: "lg:text-xl sm:text-2xl", color: { color } }}>
+    <IconContext.Provider value={{ className: "lg:text-xl sm:text-5xl", color: { color } }}>
         <IoChevronForward />
     </IconContext.Provider>
 

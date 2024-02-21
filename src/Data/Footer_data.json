@@ -1,84 +1,30 @@
-{
-    "destop": [
-        {
-            "title": "Eleven",
-            "path":"#",
-            "hypelink": false,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Twelve",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Thirteen",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Fourteen",
-            "path":"#",
-            "hypelink": false,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Fifteen",
-            "path":"#",
-            "hypelink": false,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Sixteen",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Eighteen",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        }
-    ],
-    "mobile":[
-        {
-            "title": "Eleven",
-            "path":"#",
-            "hypelink": false,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Twelve",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Thirteen",
-            "path":"#",
-            "hypelink": true,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        },
-        {
-            "title": "Fourteen",
-            "path":"#",
-            "hypelink": false,
-            "dropdownMenu": false,
-            "dropdownItems": null
-        }
-
-    ]
-}
+[
+    {
+        "title": "Projects",
+        "path": "#",
+        "hypelink": false,
+        "dropdownMenu": false,
+        "dropdownItems": null
+    },
+    {
+        "title": "Blog",
+        "path": "#",
+        "hypelink": false,
+        "dropdownMenu": false,
+        "dropdownItems": null
+    },
+    {
+        "title": "My Gear",
+        "path": "#",
+        "hypelink": false,
+        "dropdownMenu": false,
+        "dropdownItems": null
+    },
+    {
+        "title": "Github",
+        "path": "#",
+        "hypelink": true,
+        "dropdownMenu": false,
+        "dropdownItems": null
+    }
+]

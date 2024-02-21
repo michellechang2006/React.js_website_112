@@ -1,17 +1,33 @@
 
 import { CloseIcon, LogoGithub, MenuIcon } from "../../../assets/icons";
 import "./index.css"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Logo from "../../../components/Logo";
 import MenuItem from "../../../components/MenuItem";
 
-export default function Headermd({logoSrc,items}) {
+export default function Headermd({ logoSrc, items, scrollEvent = true }) {
+    const [windowScroll, setWindowScroll] = useState(scrollEvent)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY === 0) {
+                setWindowScroll(true)
+            } else if (window.scrollY > 0) {
+                setWindowScroll(false)
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
     const [sideMenu, setSideMenu] = useState(false)
     function sideMenuEvent() {
         setSideMenu((pre) => pre ? false : true)
     }
     return (
-        <div className="header-md">
+        <div className={`header-md ${windowScroll & scrollEvent ? "disabled" : null}`}>
             <header>
                 <button onClick={sideMenuEvent}><MenuIcon /></button>
                 <Logo src={logoSrc} />
@@ -24,7 +40,7 @@ export default function Headermd({logoSrc,items}) {
                     <button onClick={sideMenuEvent}><CloseIcon /></button>
                 </div>
                 <div className="items">
-                {items.map((item) => <MenuItem path={item.path} dropdownItems={item.dropdownItems} hypelink={item.hypelink} drop dropdownMenu={item.dropdownMenu} key={item.title}>{item.title}</MenuItem>)}
+                    {items.map((item) => <MenuItem path={item.path} dropdownItems={item.dropdownItems} hypelink={item.hypelink} drop dropdownMenu={item.dropdownMenu} key={item.title}>{item.title}</MenuItem>)}
                 </div>
             </div>
         </div>

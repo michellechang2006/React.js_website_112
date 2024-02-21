@@ -3,9 +3,9 @@ body{
 }
 
 .menu_tabs{
-    @apply font-bold flex flex-row gap-2 
+    @apply font-medium flex flex-row gap-2 
     /* RWD */
-   lg:text-base sm:text-2xl
+   lg:text-base md:text-3xl sm:text-4xl
 }
 
 

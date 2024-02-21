@@ -1,7 +1,7 @@
 .stats-cards {
-    @apply flex items-center justify-center flex-col text-center
+    @apply  flex items-center justify-center flex-col text-center
     /* RWD */
-    lg:h-screen lg:p-20 lg:gap-12
+    lg:p-20 lg:gap-12
     /* Tablet/Mobile */
     px-10 py-20 gap-16
 }

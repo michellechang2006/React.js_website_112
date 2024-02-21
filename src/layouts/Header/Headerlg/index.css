@@ -1,5 +1,5 @@
 .header-lg {
-    @apply w-screen fixed justify-between items-center bg-primary-container px-20 py-4
+    @apply w-screen transition-opacity fixed justify-between items-center bg-primary-container px-20 py-4
     hidden lg:flex
 }
 
@@ -9,4 +9,8 @@
 
 .header-lg .items {
     @apply flex flex-row
+}
+
+.disabled{
+    @apply opacity-0
 }

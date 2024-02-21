@@ -1,5 +1,5 @@
 .banner {
-    @apply lg:bg-banner-lg md:bg-banner-md bg-cover bg-center w-screen h-screen flex flex-col justify-center items-center text-center gap-28
+    @apply lg:bg-banner-lg md:bg-banner-md bg-cover bg-center w-screen lg:h-screen sm:h-dvh flex flex-col justify-center items-center text-center gap-28
 }
 
 .banner div {

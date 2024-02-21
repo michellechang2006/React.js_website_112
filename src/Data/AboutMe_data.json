@@ -5,18 +5,18 @@
         "paragraph": "HTTP、腳本語言 ...等"
     },
     {
-        "icon": "globe",
-        "title": "Web 技術",
-        "paragraph": "HTTP、腳本語言 ...等"
+        "icon": "webDev",
+        "title": "Web 前端 開發",
+        "paragraph": "HTML 、CSS、Javascript ...等"
     },
     {
-        "icon": "globe",
-        "title": "Web 技術",
-        "paragraph": "HTTP、腳本語言 ...等"
+        "icon": "reactLogo",
+        "title": "React.js Library",
+        "paragraph": "React Router 、React Query ...等"
     },
     {
-        "icon": "globe",
-        "title": "Web 技術",
-        "paragraph": "HTTP、腳本語言 ...等"
+        "icon": "swiftLogo",
+        "title": "iOS APP 開發",
+        "paragraph": "Swift 、SwiftUI 、SwiftData ...等"
     }
 ]

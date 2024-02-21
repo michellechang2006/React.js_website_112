@@ -3,14 +3,14 @@ import "./index.css"
 import { LogoFacebook, LogoGithub, LogoYoutube } from "../../assets/icons";
 
 
-export default function Footer({ itemsData={} }) {
+export default function Footer({ itemsData = {} }) {
     return (
         <footer>
             <div className="items-lg">
-                {itemsData.destop.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
+                {itemsData.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
             </div>
             <div className="items-md">
-            {itemsData.mobile.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
+                {itemsData.map((item) => <MenuItem hypelink={item.hypelink} key={item.title}>{item.title}</MenuItem>)}
             </div>
             <div className="icons">
                 <a href="#"><LogoGithub /></a>

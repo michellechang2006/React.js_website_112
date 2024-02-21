@@ -1,62 +1,35 @@
 [
     {
-        "title": "Eleven",
-        "path":"#",
+        "title": "Home",
+        "path": "#",
         "hypelink": false,
         "dropdownMenu": false,
         "dropdownItems": null
     },
     {
-        "title": "Twelve",
-        "path":"#",
-        "hypelink": true,
-        "dropdownMenu": false,
-        "dropdownItems": null
-    },
-    {
-        "title": "Thirteen",
-        "path":"#",
-        "hypelink": true,
-        "dropdownMenu": false,
-        "dropdownItems": null
-    },
-    {
-        "title": "Fourteen",
-        "path":"#",
+        "title": "Projects",
+        "path": "#",
         "hypelink": false,
         "dropdownMenu": false,
         "dropdownItems": null
     },
     {
-        "title": "Fifteen",
-        "path":"#",
+        "title": "Blog",
+        "path": "#",
         "hypelink": false,
         "dropdownMenu": false,
         "dropdownItems": null
     },
     {
-        "title": "Sixteen",
-        "path":null,
+        "title": "My Gear",
+        "path": "#",
         "hypelink": false,
-        "dropdownMenu": true,
-        "dropdownItems": [
-            {
-                "title": "Sixteen",
-                "path": "#"
-            },
-            {
-                "title": "Sixteen",
-                "path": "#"
-            },
-            {
-                "title": "Sixteen",
-                "path": "#"
-            }
-        ]
+        "dropdownMenu": false,
+        "dropdownItems": null
     },
     {
-        "title": "Eighteen",
-        "path":"#",
+        "title": "Github",
+        "path": "#",
         "hypelink": true,
         "dropdownMenu": false,
         "dropdownItems": null

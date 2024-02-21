@@ -1,4 +1,4 @@
-import { Icon } from "../../assets/icon";
+import { Icon } from "../../assets/icon/icon";
 import "./index.css"
 import { v4 as uuidv4 } from 'uuid';
 
