@@ -13,7 +13,7 @@ export const Icon = ({ name }) => {
         <IoLogoReact />
     </IconContext.Provider>
 
-    const swiftLogo = <img src="pics/swift_logo.svg" alt="" />
+    const swiftLogo = <img src="pics/swift.svg" alt="" />
 
     if (name === "globe") {
         icon = globe
