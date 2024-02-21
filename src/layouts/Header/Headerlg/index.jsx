@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 import Logo from "../../../components/Logo"
 import MenuItem from "../../../components/MenuItem"
-import "./index.css" 
+import "./index.css"
 
 export default function Headerlg({ logoSrc, items, scrollEvent = true }) {
     const [windowScroll, setWindowScroll] = useState(scrollEvent)
