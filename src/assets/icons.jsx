@@ -25,6 +25,10 @@ const CloseIcon = () =>
     <IconContext.Provider value={{ size: "4rem", className: "close-icon", color: "#121619" }}>
         <IoClose />
     </IconContext.Provider>
+const Close = () =>
+    <IconContext.Provider value={{ size: "2rem", className: "close-icon", color: "#121619" }}>
+        <IoClose />
+    </IconContext.Provider>
 
 const LogoFacebook = () =>
 
@@ -55,4 +59,4 @@ const ChevronForward = ({ color = "#121619" }) =>
 
 
 
-export { GlobeOutline, ChevronForward, MenuIcon, LogoGithub, CloseIcon, LogoFacebook, LogoYoutube, ChevronDown, OpenOutline, CircleIcon } 
+export { Close,GlobeOutline, ChevronForward, MenuIcon, LogoGithub, CloseIcon, LogoFacebook, LogoYoutube, ChevronDown, OpenOutline, CircleIcon } 

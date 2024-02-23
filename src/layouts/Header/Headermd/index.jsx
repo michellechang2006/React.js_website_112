@@ -12,6 +12,7 @@ export default function Headermd({ logoSrc, items, scrollEvent = true }) {
         const handleScroll = () => {
             if (window.scrollY === 0) {
                 setWindowScroll(true)
+                setSideMenu((pre) => pre = false)
             } else if (window.scrollY > 0) {
                 setWindowScroll(false)
             }
